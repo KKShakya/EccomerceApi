@@ -1,15 +1,1 @@
-{
-  "name": "ecommerce",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "json-server": "^0.17.1"
-  }
-}
+{"name":"ecommerce","version":"1.0.0","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1","start":"node index.js","deploy":"heroku create","updatedeploy":"git add . && git commit -m 'updated' && git push heroku master"},"keywords":[],"author":"","license":"ISC","dependencies":{"heroku":"^7.66.2","json-server":"^0.17.1"},"devDependencies":{},"repository":{"type":"git","url":"git+https://github.com/KKShakya/EccomerceApi.git"},"bugs":{"url":"https://github.com/KKShakya/EccomerceApi/issues"},"homepage":"https://github.com/KKShakya/EccomerceApi#readme","description":""}
